@@ -77,7 +77,7 @@ export default {
     components: {
         UrlCard,
     },
-    props: { urls: { type: Array, required: true },  shortenerUrlRoute: String },
+    props: { urls: { type: Array, required: true }, shortenerUrlRoute: String },
 
     data() {
         return { fields: {}, error: "", allUrls: this.urls, existingUrl: "" };
